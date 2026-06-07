@@ -4,7 +4,28 @@ from collections import Counter
 import logging
 
 class TrafficAnalyzer:
+    """анализатор сетевого трафика для обнаружения аномалий
+       сравнивает два набора данных о сетевых соединениях:
+       1) baseline - записи за неделю нормальной работы;
+       2) current - записи за последний час
+       находит новые устройства, пропавшие устройства и подозрительную активность
+       на основе статистического анализа.
+       Attributes:
+           baseline_all (list) - все IP-адреса из baseline (с повторениями),
+           current_all (list) - все IP-адреса из current (с повторениями).
+       Examples:
+           analyzer = TrafficAnalyzer("baseline.json", "current.json", sigma=3)
+           analyzer.load_data()
+           analyzer.new_device()
+           analyzer.anomalies()
+       """
     def __init__(self, baseline=None, current=None, sigma=3):
+        """инициализирует анализ сетевого трафика
+           Attributes:
+               baseline (str) - путь к json файлу с baseline данными,
+               current (str) - путь к json файлу с current данными,
+               sigma (int/float) - множитель стандартного отклонения для определенного порога аномалии, по умолчанию равен 3.
+           """
         self.logger = logging.getLogger(__name__)
         self.logger.setLevel(logging.DEBUG)
         file_handler = logging.FileHandler('app.log', encoding='utf-8')
@@ -33,7 +54,35 @@ class TrafficAnalyzer:
         self._report = {}
         self.logger.info(f'анализатор создан ({baseline}, {current}, {sigma})')
 
+    @property
+    def sigma(self):
+        """множитель стандартного отклонения для порога аномалии.
+        Returns:
+            int or float - текущий множитель сигмы.
+        """
+        return self._sigma
+
+    @sigma.setter
+    def sigma(self, value):
+        """устанавливает множитель сигмы.
+        Args:
+            value (int or float) - новый множитель (должен быть > 0).
+        Raises:
+            ValueError: если значение меньше или равно нулю.
+        """
+        if value <= 0:
+            raise ValueError("сигма должна быть положительным числом")
+        self._sigma = value
+        self.logger.debug(f"множитель сигмы изменён на {value}")
+
     def read_data(self, filepath):
+        """читает ip-адреса из json файла.
+        Args:
+            filepath (str) - путь к json файлу со списком ip-адресов.
+        Yields:
+            str - ip-адрес из файла.
+        """
+
         self.logger.debug(f'чтение файла ({filepath})')
         with open(filepath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -42,6 +91,9 @@ class TrafficAnalyzer:
                 yield d
 
     def load_data(self):
+        """загружает данные из baseline и current файлов.
+        загружает все ip-адреса в списки (с повторениями) и строит множества уникальных ip для дальнейшего анализа.
+        """
         self.logger.info('началась загрузка данных')
         self.baseline_all = list(self.read_data(self._baseline))
         self.logger.info('все записи baseline загружены в список')
@@ -53,6 +105,10 @@ class TrafficAnalyzer:
         self.logger.info('уникальные записи current загружены в множество')
 
     def to_dict(self):
+        """сериализует состояние объекта в словарь.
+        Returns:
+            dict - полное состояние объекта, включая настройки, данные и результаты.
+        """
         self.logger.debug('началась сериализация объекта в словарь')
         return{
             "settings": {
@@ -78,6 +134,12 @@ class TrafficAnalyzer:
 
     @classmethod
     def from_dict(cls, data):
+        """создаёт объект из словаря.
+        Args:
+            data (dict) - словарь с данными объекта (из to_dict()).
+        Returns:
+            TrafficAnalyzer - восстановленный объект анализатора.
+        """
         logging.info('создание объекта из словаря')
         obj = cls(
             baseline=data["settings"]["baseline"],
@@ -98,6 +160,11 @@ class TrafficAnalyzer:
         return obj
 
     def new_device(self):
+        """находит ip-адреса, которые появились только в current наборе.
+        вычисляет разность множеств current_unique - baseline_unique.
+        Returns:
+            set - множество новых ip-адресов.
+        """
         self.logger.info('начался поиск новых устройств')
         self._new_dev = self._current_unique - self._baseline_unique
         self.logger.info(f'найдено новых устройств {len(self._new_dev)}')
@@ -105,6 +172,10 @@ class TrafficAnalyzer:
         return self._new_dev
 
     def missing_device(self):
+        """находит ip-адреса, которые были в baseline, но отсутствуют в current. вычисляет разность множеств baseline_unique - current_unique.
+        Returns:
+            set - множество пропавших IP-адресов.
+        """
         self.logger.info('начался поиск пропавших устройств')
         self._missing_dev = self._baseline_unique - self._current_unique
         self.logger.info(f'найдено пропавших устройств {len(self._missing_dev)}')
@@ -112,10 +183,29 @@ class TrafficAnalyzer:
         return self._missing_dev
 
     def count_connections(self, ip_list):
+        """подсчитывает количество соединений для каждого ip-адреса.
+        использует collections.Counter для подсчёта.
+        Args:
+            ip_list (list) - список ip-адресов (с повторениями).
+        Returns:
+            dict - словарь {ip: количество_соединений}.
+        Examples:
+            analyzer.count_connections(["192.168.1.1", "192.168.1.1", "10.0.0.1"])
+            {"192.168.1.1": 2, "10.0.0.1": 1}
+        """
         self.loggint.info(f'подсчет соединений для {len(ip_list)} записей')
         return dict(Counter(ip_list))
 
     def anomalies(self):
+        """обнаруживает аномальные соединения методом трёх сигм.
+        вычисляет среднее и стандартное отклонение по baseline, затем проверяет новые устройства из current на превышение порога μ + k*σ (где k — множитель сигмы).
+        устройства с количеством соединений выше порога помечаются как подозрительные.
+        Returns:
+            dict - словарь подозрительных устройств
+                {ip: {"connections": N, "threshold": T}}.
+        Raises:
+            ValueError - если нет данных для анализа.
+        """
         self.logger.info('начался поиск аномалий')
         baseline_count = Counter(self.baseline_all)
         count_list = list(baseline_count.values())
@@ -141,12 +231,20 @@ class TrafficAnalyzer:
         return self._suspicious_dev
 
     def save_state(self, filepath):
+        """сохраняет полное состояние объекта в json файл.
+        Args:
+            filepath (str) - путь для сохранения.
+        """
         self.logger.info(f'сохранение состояния в {filepath}')
         with open(filepath, 'w', encoding='utf-8') as f:
             json.dump(self.to_dict(), f, ensure_ascii=False, indent=2)
         self.logger.info('состояние сохранено')
 
     def load_state(self, filepath):
+        """загружает состояние объекта из json файла.
+        Args:
+            filepath (str) - путь к файлу состояния.
+        """
         self.logger.info(f'загрузка состояния из {filepath}')
         with open(filepath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -156,6 +254,18 @@ class TrafficAnalyzer:
         self.logger.info('состояние загружено')
 
     def report(self, output_path="report.json"):
+        """генерирует аналитический отчёт в json формате.
+            отчёт содержит:
+                1) настройки анализа;
+               2) статистику (количество уникальных ip, новых, пропавших);
+               3) метрики (среднее, стандартное отклонение, порог);
+               4) списки новых, пропавших и подозрительных устройств.
+            Args:
+                output_path (str) - путь для сохранения отчёта.
+                по умолчанию "report.json".
+            Returns:
+                dict - словарь с данными отчёта.
+        """
         self.logger.info(f'генерация отчета в {output_path}')
         report_data = {
             "settings": {
