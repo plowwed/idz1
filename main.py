@@ -1,16 +1,27 @@
-# This is a sample Python script.
+from traffic_analyzer import TrafficAnalyzer
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+analyzer = TrafficAnalyzer(baseline="baseline.json",current="current.json",sigma=3)
+analyzer.load_data()
+print(f"baseline: {len(analyzer.baseline_all)}")
+print(f"current: {len(analyzer.current_all)}")
 
+new_devices = analyzer.new_device()
+print(f"новые устройства: {len(new_devices)}")
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+missing_devices = analyzer.missing_device()
+print(f"пропавшие устройства: {len(missing_devices)}")
 
+suspicious = analyzer.anomalies()
+print(f"подозрительные устройства: {len(suspicious)}")
+print(f"μ: {analyzer._mean:.2f}")
+print(f"σ: {analyzer._std:.2f}")
+print(f"μ + 3σ: {analyzer._threshold:.2f}")
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+analyzer.save_state("analyzer_state.json")
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+report = analyzer.report("report.json")
+
+analyzer2 = TrafficAnalyzer()
+analyzer2.load_state("analyzer_state.json")
+print(f"новые устройства: {len(analyzer2._new_dev)}")
+print(f"подозрительные: {len(analyzer2._suspicious_dev)}")
