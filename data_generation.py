@@ -1,3 +1,4 @@
+"""модуль для генерации данных"""
 import json
 from faker import Faker
 import random

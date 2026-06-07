@@ -55,3 +55,644 @@
 2026-06-07 21:04:37,254 - traffic_analyzer - INFO - загрузка состояния из analyzer_state.json
 2026-06-07 21:04:37,254 - traffic_analyzer - INFO - анализатор создан (baseline.json, current.json, 3)
 2026-06-07 21:04:37,254 - traffic_analyzer - INFO - состояние загружено
+2026-06-07 21:45:42,511 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpvhimotbf\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmpvhimotbf\current_test.json, 2)
+2026-06-07 21:45:42,511 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:45:42,511 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpvhimotbf\baseline_test.json)
+2026-06-07 21:45:42,517 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:45:42,517 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:45:42,517 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpvhimotbf\current_test.json)
+2026-06-07 21:45:42,522 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:45:42,522 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:45:42,522 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:45:42,524 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:45:42,528 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpudcf5l3j\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmpudcf5l3j\current_test.json, 2)
+2026-06-07 21:45:42,528 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:45:42,528 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpudcf5l3j\baseline_test.json)
+2026-06-07 21:45:42,529 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:45:42,529 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:45:42,529 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpudcf5l3j\current_test.json)
+2026-06-07 21:45:42,530 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:45:42,530 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:45:42,530 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:45:42,530 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:45:42,530 - traffic_analyzer - INFO - начался поиск новых устройств
+2026-06-07 21:45:42,530 - traffic_analyzer - INFO - найдено новых устройств 2
+2026-06-07 21:45:42,530 - traffic_analyzer - DEBUG - новые ip ['10.0.0.3', '192.168.1.4']
+2026-06-07 21:45:42,535 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpaethchsx\a.json, C:\Users\user\AppData\Local\Temp\tmpaethchsx\b.json, 3)
+2026-06-07 21:45:42,535 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:45:42,535 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpaethchsx\a.json)
+2026-06-07 21:45:42,541 - traffic_analyzer - DEBUG - файл открыт, записей 1
+2026-06-07 21:45:42,541 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:45:42,542 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpaethchsx\b.json)
+2026-06-07 21:45:42,543 - traffic_analyzer - DEBUG - файл открыт, записей 1
+2026-06-07 21:45:42,543 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:45:42,543 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:45:42,543 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:45:42,543 - traffic_analyzer - INFO - начался поиск новых устройств
+2026-06-07 21:45:42,543 - traffic_analyzer - INFO - найдено новых устройств 0
+2026-06-07 21:45:42,543 - traffic_analyzer - DEBUG - новые ip []
+2026-06-07 21:45:42,546 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmp1921sg74\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmp1921sg74\current_test.json, 2)
+2026-06-07 21:45:42,546 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:45:42,546 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmp1921sg74\baseline_test.json)
+2026-06-07 21:45:42,547 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:45:42,547 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:45:42,547 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmp1921sg74\current_test.json)
+2026-06-07 21:45:42,548 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:45:42,548 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:45:42,548 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:45:42,548 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:45:42,549 - traffic_analyzer - INFO - начался поиск пропавших устройств
+2026-06-07 21:45:42,549 - traffic_analyzer - INFO - найдено пропавших устройств 3
+2026-06-07 21:45:42,549 - traffic_analyzer - DEBUG - пропавшие ip ['192.168.1.3', '10.0.0.1', '10.0.0.2']
+2026-06-07 21:45:42,552 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmp3ebopl4m\a.json, C:\Users\user\AppData\Local\Temp\tmp3ebopl4m\b.json, 3)
+2026-06-07 21:45:42,552 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:45:42,552 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmp3ebopl4m\a.json)
+2026-06-07 21:45:42,553 - traffic_analyzer - DEBUG - файл открыт, записей 1
+2026-06-07 21:45:42,554 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:45:42,554 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmp3ebopl4m\b.json)
+2026-06-07 21:45:42,555 - traffic_analyzer - DEBUG - файл открыт, записей 1
+2026-06-07 21:45:42,555 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:45:42,555 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:45:42,555 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:45:42,555 - traffic_analyzer - INFO - начался поиск пропавших устройств
+2026-06-07 21:45:42,556 - traffic_analyzer - INFO - найдено пропавших устройств 0
+2026-06-07 21:45:42,556 - traffic_analyzer - DEBUG - пропавшие ip []
+2026-06-07 21:45:42,558 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpv5196s2h\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmpv5196s2h\current_test.json, 2)
+2026-06-07 21:45:42,559 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:45:42,559 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpv5196s2h\baseline_test.json)
+2026-06-07 21:45:42,560 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:45:42,560 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:45:42,560 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpv5196s2h\current_test.json)
+2026-06-07 21:45:42,561 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:45:42,561 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:45:42,561 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:45:42,561 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:45:42,610 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpp6edhaeg\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmpp6edhaeg\current_test.json, 2)
+2026-06-07 21:45:42,611 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:45:42,611 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpp6edhaeg\baseline_test.json)
+2026-06-07 21:45:42,612 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:45:42,612 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:45:42,612 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpp6edhaeg\current_test.json)
+2026-06-07 21:45:42,612 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:45:42,613 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:45:42,613 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:45:42,613 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:45:42,622 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmp9amey0so\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmp9amey0so\current_test.json, 2)
+2026-06-07 21:45:42,622 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:45:42,622 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmp9amey0so\baseline_test.json)
+2026-06-07 21:45:42,623 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:45:42,624 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:45:42,624 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmp9amey0so\current_test.json)
+2026-06-07 21:45:42,625 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:45:42,626 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:45:42,626 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:45:42,626 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:45:42,626 - traffic_analyzer - INFO - начался поиск новых устройств
+2026-06-07 21:45:42,627 - traffic_analyzer - INFO - найдено новых устройств 2
+2026-06-07 21:45:42,627 - traffic_analyzer - DEBUG - новые ip ['10.0.0.3', '192.168.1.4']
+2026-06-07 21:45:42,627 - traffic_analyzer - INFO - начался поиск аномалий
+2026-06-07 21:45:42,627 - traffic_analyzer - DEBUG - среднее 1.8
+2026-06-07 21:45:42,627 - traffic_analyzer - DEBUG - стандартное отклонение 0.7483314773547883
+2026-06-07 21:45:42,627 - traffic_analyzer - DEBUG - порог аномалии 3.2966629547095767
+2026-06-07 21:45:42,627 - traffic_analyzer - DEBUG - проверка ip 10.0.0.3 1 соединений
+2026-06-07 21:45:42,627 - traffic_analyzer - DEBUG - проверка ip 192.168.1.4 4 соединений
+2026-06-07 21:45:42,627 - traffic_analyzer - INFO - найдена аномалия 192.168.1.4 (4 соединений)
+2026-06-07 21:45:42,627 - traffic_analyzer - INFO - всего подозрительных устройств 1
+2026-06-07 21:45:42,631 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpyx9c89iy\a.json, C:\Users\user\AppData\Local\Temp\tmpyx9c89iy\b.json, 3)
+2026-06-07 21:45:42,631 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:45:42,631 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpyx9c89iy\a.json)
+2026-06-07 21:45:42,638 - traffic_analyzer - DEBUG - файл открыт, записей 2
+2026-06-07 21:45:42,638 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:45:42,638 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpyx9c89iy\b.json)
+2026-06-07 21:45:42,644 - traffic_analyzer - DEBUG - файл открыт, записей 2
+2026-06-07 21:45:42,644 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:45:42,644 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:45:42,644 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:45:42,644 - traffic_analyzer - INFO - начался поиск новых устройств
+2026-06-07 21:45:42,644 - traffic_analyzer - INFO - найдено новых устройств 1
+2026-06-07 21:45:42,644 - traffic_analyzer - DEBUG - новые ip ['192.168.1.3']
+2026-06-07 21:45:42,644 - traffic_analyzer - INFO - начался поиск аномалий
+2026-06-07 21:45:42,644 - traffic_analyzer - DEBUG - среднее 1.0
+2026-06-07 21:45:42,644 - traffic_analyzer - DEBUG - стандартное отклонение 0.0
+2026-06-07 21:45:42,644 - traffic_analyzer - DEBUG - порог аномалии 1.0
+2026-06-07 21:45:42,644 - traffic_analyzer - DEBUG - проверка ip 192.168.1.3 1 соединений
+2026-06-07 21:45:42,644 - traffic_analyzer - INFO - всего подозрительных устройств 0
+2026-06-07 21:45:42,648 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmp7l4ds6qs\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmp7l4ds6qs\current_test.json, 2)
+2026-06-07 21:45:42,649 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:45:42,649 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmp7l4ds6qs\baseline_test.json)
+2026-06-07 21:45:42,650 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:45:42,650 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:45:42,650 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmp7l4ds6qs\current_test.json)
+2026-06-07 21:45:42,651 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:45:42,651 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:45:42,651 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:45:42,651 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:45:42,651 - traffic_analyzer - INFO - начался поиск новых устройств
+2026-06-07 21:45:42,651 - traffic_analyzer - INFO - найдено новых устройств 2
+2026-06-07 21:45:42,651 - traffic_analyzer - DEBUG - новые ip ['10.0.0.3', '192.168.1.4']
+2026-06-07 21:45:42,651 - traffic_analyzer - DEBUG - началась сериализация объекта в словарь
+2026-06-07 21:45:42,654 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpvd4dfrzj\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmpvd4dfrzj\current_test.json, 2)
+2026-06-07 21:45:42,654 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:45:42,654 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpvd4dfrzj\baseline_test.json)
+2026-06-07 21:45:42,655 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:45:42,655 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:45:42,655 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpvd4dfrzj\current_test.json)
+2026-06-07 21:45:42,656 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:45:42,656 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:45:42,656 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:45:42,656 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:45:42,657 - traffic_analyzer - INFO - начался поиск новых устройств
+2026-06-07 21:45:42,657 - traffic_analyzer - INFO - найдено новых устройств 2
+2026-06-07 21:45:42,657 - traffic_analyzer - DEBUG - новые ip ['10.0.0.3', '192.168.1.4']
+2026-06-07 21:45:42,657 - traffic_analyzer - DEBUG - началась сериализация объекта в словарь
+2026-06-07 21:45:42,657 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpvd4dfrzj\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmpvd4dfrzj\current_test.json, 2)
+2026-06-07 21:45:42,661 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpor49x_ef\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmpor49x_ef\current_test.json, 2)
+2026-06-07 21:45:42,661 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:45:42,661 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpor49x_ef\baseline_test.json)
+2026-06-07 21:45:42,662 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:45:42,662 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:45:42,662 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpor49x_ef\current_test.json)
+2026-06-07 21:45:42,664 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:45:42,664 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:45:42,664 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:45:42,664 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:45:42,664 - traffic_analyzer - INFO - начался поиск новых устройств
+2026-06-07 21:45:42,665 - traffic_analyzer - INFO - найдено новых устройств 2
+2026-06-07 21:45:42,665 - traffic_analyzer - DEBUG - новые ip ['10.0.0.3', '192.168.1.4']
+2026-06-07 21:45:42,665 - traffic_analyzer - INFO - начался поиск аномалий
+2026-06-07 21:45:42,665 - traffic_analyzer - DEBUG - среднее 1.8
+2026-06-07 21:45:42,665 - traffic_analyzer - DEBUG - стандартное отклонение 0.7483314773547883
+2026-06-07 21:45:42,665 - traffic_analyzer - DEBUG - порог аномалии 3.2966629547095767
+2026-06-07 21:45:42,665 - traffic_analyzer - DEBUG - проверка ip 10.0.0.3 1 соединений
+2026-06-07 21:45:42,665 - traffic_analyzer - DEBUG - проверка ip 192.168.1.4 4 соединений
+2026-06-07 21:45:42,665 - traffic_analyzer - INFO - найдена аномалия 192.168.1.4 (4 соединений)
+2026-06-07 21:45:42,665 - traffic_analyzer - INFO - всего подозрительных устройств 1
+2026-06-07 21:45:42,665 - traffic_analyzer - INFO - сохранение состояния в C:\Users\user\AppData\Local\Temp\tmpor49x_ef\state.json
+2026-06-07 21:45:42,666 - traffic_analyzer - DEBUG - началась сериализация объекта в словарь
+2026-06-07 21:45:42,667 - traffic_analyzer - INFO - состояние сохранено
+2026-06-07 21:45:42,667 - traffic_analyzer - INFO - анализатор создан (None, None, 3)
+2026-06-07 21:45:42,667 - traffic_analyzer - INFO - загрузка состояния из C:\Users\user\AppData\Local\Temp\tmpor49x_ef\state.json
+2026-06-07 21:45:42,675 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpor49x_ef\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmpor49x_ef\current_test.json, 2)
+2026-06-07 21:45:42,675 - traffic_analyzer - INFO - состояние загружено
+2026-06-07 21:45:42,678 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmp8ajzuyqz\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmp8ajzuyqz\current_test.json, 2)
+2026-06-07 21:45:42,678 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:45:42,678 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmp8ajzuyqz\baseline_test.json)
+2026-06-07 21:45:42,679 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:45:42,680 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:45:42,680 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmp8ajzuyqz\current_test.json)
+2026-06-07 21:45:42,680 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:45:42,680 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:45:42,681 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:45:42,681 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:45:42,681 - traffic_analyzer - INFO - начался поиск новых устройств
+2026-06-07 21:45:42,681 - traffic_analyzer - INFO - найдено новых устройств 2
+2026-06-07 21:45:42,681 - traffic_analyzer - DEBUG - новые ip ['10.0.0.3', '192.168.1.4']
+2026-06-07 21:45:42,681 - traffic_analyzer - INFO - начался поиск аномалий
+2026-06-07 21:45:42,681 - traffic_analyzer - DEBUG - среднее 1.8
+2026-06-07 21:45:42,681 - traffic_analyzer - DEBUG - стандартное отклонение 0.7483314773547883
+2026-06-07 21:45:42,681 - traffic_analyzer - DEBUG - порог аномалии 3.2966629547095767
+2026-06-07 21:45:42,681 - traffic_analyzer - DEBUG - проверка ip 10.0.0.3 1 соединений
+2026-06-07 21:45:42,681 - traffic_analyzer - DEBUG - проверка ip 192.168.1.4 4 соединений
+2026-06-07 21:45:42,681 - traffic_analyzer - INFO - найдена аномалия 192.168.1.4 (4 соединений)
+2026-06-07 21:45:42,681 - traffic_analyzer - INFO - всего подозрительных устройств 1
+2026-06-07 21:45:42,682 - traffic_analyzer - INFO - генерация отчета в C:\Users\user\AppData\Local\Temp\tmp8ajzuyqz\report.json
+2026-06-07 21:45:42,682 - traffic_analyzer - INFO - отчет загружен в C:\Users\user\AppData\Local\Temp\tmp8ajzuyqz\report.json
+2026-06-07 21:45:42,687 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpkjlu0spm\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmpkjlu0spm\current_test.json, 2)
+2026-06-07 21:45:42,687 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:45:42,687 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpkjlu0spm\baseline_test.json)
+2026-06-07 21:45:42,688 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:45:42,688 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:45:42,689 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpkjlu0spm\current_test.json)
+2026-06-07 21:45:42,690 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:45:42,690 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:45:42,690 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:45:42,690 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:45:42,690 - traffic_analyzer - DEBUG - множитель сигмы изменён на 5
+2026-06-07 21:45:55,980 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpeb06bq1_\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmpeb06bq1_\current_test.json, 2)
+2026-06-07 21:45:55,980 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:45:55,980 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpeb06bq1_\baseline_test.json)
+2026-06-07 21:45:55,981 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:45:55,981 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:45:55,981 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpeb06bq1_\current_test.json)
+2026-06-07 21:45:55,982 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:45:55,982 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:45:55,982 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:45:55,984 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:45:55,988 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpbc_058fc\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmpbc_058fc\current_test.json, 2)
+2026-06-07 21:45:55,988 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:45:55,988 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpbc_058fc\baseline_test.json)
+2026-06-07 21:45:55,989 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:45:55,989 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:45:55,989 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpbc_058fc\current_test.json)
+2026-06-07 21:45:55,990 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:45:55,990 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:45:55,990 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:45:55,990 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:45:55,991 - traffic_analyzer - INFO - начался поиск новых устройств
+2026-06-07 21:45:55,991 - traffic_analyzer - INFO - найдено новых устройств 2
+2026-06-07 21:45:55,991 - traffic_analyzer - DEBUG - новые ip ['10.0.0.3', '192.168.1.4']
+2026-06-07 21:45:55,994 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpmrtcfo31\a.json, C:\Users\user\AppData\Local\Temp\tmpmrtcfo31\b.json, 3)
+2026-06-07 21:45:55,994 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:45:55,994 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpmrtcfo31\a.json)
+2026-06-07 21:45:55,996 - traffic_analyzer - DEBUG - файл открыт, записей 1
+2026-06-07 21:45:55,996 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:45:55,996 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpmrtcfo31\b.json)
+2026-06-07 21:45:55,997 - traffic_analyzer - DEBUG - файл открыт, записей 1
+2026-06-07 21:45:55,997 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:45:55,997 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:45:55,997 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:45:55,998 - traffic_analyzer - INFO - начался поиск новых устройств
+2026-06-07 21:45:55,998 - traffic_analyzer - INFO - найдено новых устройств 0
+2026-06-07 21:45:55,998 - traffic_analyzer - DEBUG - новые ip []
+2026-06-07 21:45:56,001 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmp61xw0dkn\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmp61xw0dkn\current_test.json, 2)
+2026-06-07 21:45:56,001 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:45:56,001 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmp61xw0dkn\baseline_test.json)
+2026-06-07 21:45:56,002 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:45:56,002 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:45:56,002 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmp61xw0dkn\current_test.json)
+2026-06-07 21:45:56,003 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:45:56,003 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:45:56,004 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:45:56,004 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:45:56,004 - traffic_analyzer - INFO - начался поиск пропавших устройств
+2026-06-07 21:45:56,004 - traffic_analyzer - INFO - найдено пропавших устройств 3
+2026-06-07 21:45:56,004 - traffic_analyzer - DEBUG - пропавшие ip ['10.0.0.1', '10.0.0.2', '192.168.1.3']
+2026-06-07 21:45:56,009 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpbz7e7p_8\a.json, C:\Users\user\AppData\Local\Temp\tmpbz7e7p_8\b.json, 3)
+2026-06-07 21:45:56,010 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:45:56,010 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpbz7e7p_8\a.json)
+2026-06-07 21:45:56,011 - traffic_analyzer - DEBUG - файл открыт, записей 1
+2026-06-07 21:45:56,011 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:45:56,011 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpbz7e7p_8\b.json)
+2026-06-07 21:45:56,012 - traffic_analyzer - DEBUG - файл открыт, записей 1
+2026-06-07 21:45:56,012 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:45:56,012 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:45:56,012 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:45:56,012 - traffic_analyzer - INFO - начался поиск пропавших устройств
+2026-06-07 21:45:56,012 - traffic_analyzer - INFO - найдено пропавших устройств 0
+2026-06-07 21:45:56,012 - traffic_analyzer - DEBUG - пропавшие ip []
+2026-06-07 21:45:56,015 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpabtcqlcd\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmpabtcqlcd\current_test.json, 2)
+2026-06-07 21:45:56,015 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:45:56,015 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpabtcqlcd\baseline_test.json)
+2026-06-07 21:45:56,016 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:45:56,016 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:45:56,017 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpabtcqlcd\current_test.json)
+2026-06-07 21:45:56,017 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:45:56,018 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:45:56,018 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:45:56,018 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:45:56,067 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpujisdt45\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmpujisdt45\current_test.json, 2)
+2026-06-07 21:45:56,067 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:45:56,067 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpujisdt45\baseline_test.json)
+2026-06-07 21:45:56,068 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:45:56,068 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:45:56,068 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpujisdt45\current_test.json)
+2026-06-07 21:45:56,069 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:45:56,069 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:45:56,069 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:45:56,069 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:45:56,078 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmp_drwdt21\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmp_drwdt21\current_test.json, 2)
+2026-06-07 21:45:56,079 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:45:56,079 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmp_drwdt21\baseline_test.json)
+2026-06-07 21:45:56,080 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:45:56,080 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:45:56,080 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmp_drwdt21\current_test.json)
+2026-06-07 21:45:56,081 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:45:56,081 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:45:56,081 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:45:56,081 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:45:56,081 - traffic_analyzer - INFO - начался поиск новых устройств
+2026-06-07 21:45:56,081 - traffic_analyzer - INFO - найдено новых устройств 2
+2026-06-07 21:45:56,081 - traffic_analyzer - DEBUG - новые ip ['10.0.0.3', '192.168.1.4']
+2026-06-07 21:45:56,081 - traffic_analyzer - INFO - начался поиск аномалий
+2026-06-07 21:45:56,082 - traffic_analyzer - DEBUG - среднее 1.8
+2026-06-07 21:45:56,082 - traffic_analyzer - DEBUG - стандартное отклонение 0.7483314773547883
+2026-06-07 21:45:56,082 - traffic_analyzer - DEBUG - порог аномалии 3.2966629547095767
+2026-06-07 21:45:56,082 - traffic_analyzer - DEBUG - проверка ip 10.0.0.3 1 соединений
+2026-06-07 21:45:56,082 - traffic_analyzer - DEBUG - проверка ip 192.168.1.4 4 соединений
+2026-06-07 21:45:56,082 - traffic_analyzer - INFO - найдена аномалия 192.168.1.4 (4 соединений)
+2026-06-07 21:45:56,082 - traffic_analyzer - INFO - всего подозрительных устройств 1
+2026-06-07 21:45:56,087 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpc66u02hb\a.json, C:\Users\user\AppData\Local\Temp\tmpc66u02hb\b.json, 3)
+2026-06-07 21:45:56,087 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:45:56,087 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpc66u02hb\a.json)
+2026-06-07 21:45:56,088 - traffic_analyzer - DEBUG - файл открыт, записей 2
+2026-06-07 21:45:56,088 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:45:56,088 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpc66u02hb\b.json)
+2026-06-07 21:45:56,089 - traffic_analyzer - DEBUG - файл открыт, записей 2
+2026-06-07 21:45:56,089 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:45:56,090 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:45:56,090 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:45:56,090 - traffic_analyzer - INFO - начался поиск новых устройств
+2026-06-07 21:45:56,090 - traffic_analyzer - INFO - найдено новых устройств 1
+2026-06-07 21:45:56,090 - traffic_analyzer - DEBUG - новые ip ['192.168.1.3']
+2026-06-07 21:45:56,090 - traffic_analyzer - INFO - начался поиск аномалий
+2026-06-07 21:45:56,090 - traffic_analyzer - DEBUG - среднее 1.0
+2026-06-07 21:45:56,090 - traffic_analyzer - DEBUG - стандартное отклонение 0.0
+2026-06-07 21:45:56,090 - traffic_analyzer - DEBUG - порог аномалии 1.0
+2026-06-07 21:45:56,090 - traffic_analyzer - DEBUG - проверка ip 192.168.1.3 1 соединений
+2026-06-07 21:45:56,090 - traffic_analyzer - INFO - всего подозрительных устройств 0
+2026-06-07 21:45:56,093 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpn5w3d2te\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmpn5w3d2te\current_test.json, 2)
+2026-06-07 21:45:56,093 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:45:56,093 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpn5w3d2te\baseline_test.json)
+2026-06-07 21:45:56,094 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:45:56,094 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:45:56,094 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpn5w3d2te\current_test.json)
+2026-06-07 21:45:56,095 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:45:56,095 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:45:56,095 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:45:56,095 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:45:56,096 - traffic_analyzer - INFO - начался поиск новых устройств
+2026-06-07 21:45:56,096 - traffic_analyzer - INFO - найдено новых устройств 2
+2026-06-07 21:45:56,096 - traffic_analyzer - DEBUG - новые ip ['10.0.0.3', '192.168.1.4']
+2026-06-07 21:45:56,096 - traffic_analyzer - DEBUG - началась сериализация объекта в словарь
+2026-06-07 21:45:56,098 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmp34fgnvt2\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmp34fgnvt2\current_test.json, 2)
+2026-06-07 21:45:56,099 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:45:56,099 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmp34fgnvt2\baseline_test.json)
+2026-06-07 21:45:56,100 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:45:56,100 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:45:56,100 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmp34fgnvt2\current_test.json)
+2026-06-07 21:45:56,101 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:45:56,101 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:45:56,101 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:45:56,101 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:45:56,101 - traffic_analyzer - INFO - начался поиск новых устройств
+2026-06-07 21:45:56,101 - traffic_analyzer - INFO - найдено новых устройств 2
+2026-06-07 21:45:56,101 - traffic_analyzer - DEBUG - новые ip ['10.0.0.3', '192.168.1.4']
+2026-06-07 21:45:56,101 - traffic_analyzer - DEBUG - началась сериализация объекта в словарь
+2026-06-07 21:45:56,102 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmp34fgnvt2\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmp34fgnvt2\current_test.json, 2)
+2026-06-07 21:45:56,104 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpaiquwgj9\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmpaiquwgj9\current_test.json, 2)
+2026-06-07 21:45:56,104 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:45:56,104 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpaiquwgj9\baseline_test.json)
+2026-06-07 21:45:56,105 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:45:56,105 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:45:56,105 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpaiquwgj9\current_test.json)
+2026-06-07 21:45:56,106 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:45:56,106 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:45:56,106 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:45:56,106 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:45:56,106 - traffic_analyzer - INFO - начался поиск новых устройств
+2026-06-07 21:45:56,106 - traffic_analyzer - INFO - найдено новых устройств 2
+2026-06-07 21:45:56,106 - traffic_analyzer - DEBUG - новые ip ['10.0.0.3', '192.168.1.4']
+2026-06-07 21:45:56,106 - traffic_analyzer - INFO - начался поиск аномалий
+2026-06-07 21:45:56,106 - traffic_analyzer - DEBUG - среднее 1.8
+2026-06-07 21:45:56,106 - traffic_analyzer - DEBUG - стандартное отклонение 0.7483314773547883
+2026-06-07 21:45:56,106 - traffic_analyzer - DEBUG - порог аномалии 3.2966629547095767
+2026-06-07 21:45:56,106 - traffic_analyzer - DEBUG - проверка ip 10.0.0.3 1 соединений
+2026-06-07 21:45:56,106 - traffic_analyzer - DEBUG - проверка ip 192.168.1.4 4 соединений
+2026-06-07 21:45:56,107 - traffic_analyzer - INFO - найдена аномалия 192.168.1.4 (4 соединений)
+2026-06-07 21:45:56,107 - traffic_analyzer - INFO - всего подозрительных устройств 1
+2026-06-07 21:45:56,107 - traffic_analyzer - INFO - сохранение состояния в C:\Users\user\AppData\Local\Temp\tmpaiquwgj9\state.json
+2026-06-07 21:45:56,107 - traffic_analyzer - DEBUG - началась сериализация объекта в словарь
+2026-06-07 21:45:56,107 - traffic_analyzer - INFO - состояние сохранено
+2026-06-07 21:45:56,108 - traffic_analyzer - INFO - анализатор создан (None, None, 3)
+2026-06-07 21:45:56,108 - traffic_analyzer - INFO - загрузка состояния из C:\Users\user\AppData\Local\Temp\tmpaiquwgj9\state.json
+2026-06-07 21:45:56,116 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpaiquwgj9\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmpaiquwgj9\current_test.json, 2)
+2026-06-07 21:45:56,116 - traffic_analyzer - INFO - состояние загружено
+2026-06-07 21:45:56,118 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpoyz3emrj\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmpoyz3emrj\current_test.json, 2)
+2026-06-07 21:45:56,119 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:45:56,119 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpoyz3emrj\baseline_test.json)
+2026-06-07 21:45:56,119 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:45:56,120 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:45:56,120 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpoyz3emrj\current_test.json)
+2026-06-07 21:45:56,120 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:45:56,120 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:45:56,120 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:45:56,120 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:45:56,121 - traffic_analyzer - INFO - начался поиск новых устройств
+2026-06-07 21:45:56,121 - traffic_analyzer - INFO - найдено новых устройств 2
+2026-06-07 21:45:56,121 - traffic_analyzer - DEBUG - новые ip ['10.0.0.3', '192.168.1.4']
+2026-06-07 21:45:56,121 - traffic_analyzer - INFO - начался поиск аномалий
+2026-06-07 21:45:56,121 - traffic_analyzer - DEBUG - среднее 1.8
+2026-06-07 21:45:56,121 - traffic_analyzer - DEBUG - стандартное отклонение 0.7483314773547883
+2026-06-07 21:45:56,121 - traffic_analyzer - DEBUG - порог аномалии 3.2966629547095767
+2026-06-07 21:45:56,121 - traffic_analyzer - DEBUG - проверка ip 10.0.0.3 1 соединений
+2026-06-07 21:45:56,121 - traffic_analyzer - DEBUG - проверка ip 192.168.1.4 4 соединений
+2026-06-07 21:45:56,121 - traffic_analyzer - INFO - найдена аномалия 192.168.1.4 (4 соединений)
+2026-06-07 21:45:56,121 - traffic_analyzer - INFO - всего подозрительных устройств 1
+2026-06-07 21:45:56,121 - traffic_analyzer - INFO - генерация отчета в C:\Users\user\AppData\Local\Temp\tmpoyz3emrj\report.json
+2026-06-07 21:45:56,122 - traffic_analyzer - INFO - отчет загружен в C:\Users\user\AppData\Local\Temp\tmpoyz3emrj\report.json
+2026-06-07 21:45:56,124 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpl6j3mn3s\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmpl6j3mn3s\current_test.json, 2)
+2026-06-07 21:45:56,124 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:45:56,124 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpl6j3mn3s\baseline_test.json)
+2026-06-07 21:45:56,125 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:45:56,125 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:45:56,126 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpl6j3mn3s\current_test.json)
+2026-06-07 21:45:56,126 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:45:56,127 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:45:56,127 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:45:56,127 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:45:56,127 - traffic_analyzer - DEBUG - множитель сигмы изменён на 5
+2026-06-07 21:47:06,708 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpdu5ulzg3\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmpdu5ulzg3\current_test.json, 2)
+2026-06-07 21:47:06,708 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:47:06,708 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpdu5ulzg3\baseline_test.json)
+2026-06-07 21:47:06,709 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:47:06,709 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:47:06,709 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpdu5ulzg3\current_test.json)
+2026-06-07 21:47:06,710 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:47:06,711 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:47:06,711 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:47:06,713 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:47:06,716 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpsi0sdgnd\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmpsi0sdgnd\current_test.json, 2)
+2026-06-07 21:47:06,716 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:47:06,716 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpsi0sdgnd\baseline_test.json)
+2026-06-07 21:47:06,717 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:47:06,717 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:47:06,717 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpsi0sdgnd\current_test.json)
+2026-06-07 21:47:06,718 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:47:06,719 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:47:06,719 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:47:06,719 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:47:06,719 - traffic_analyzer - INFO - начался поиск новых устройств
+2026-06-07 21:47:06,719 - traffic_analyzer - INFO - найдено новых устройств 2
+2026-06-07 21:47:06,719 - traffic_analyzer - DEBUG - новые ip ['192.168.1.4', '10.0.0.3']
+2026-06-07 21:47:06,723 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpj51szi9c\a.json, C:\Users\user\AppData\Local\Temp\tmpj51szi9c\b.json, 3)
+2026-06-07 21:47:06,723 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:47:06,723 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpj51szi9c\a.json)
+2026-06-07 21:47:06,725 - traffic_analyzer - DEBUG - файл открыт, записей 1
+2026-06-07 21:47:06,725 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:47:06,725 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpj51szi9c\b.json)
+2026-06-07 21:47:06,726 - traffic_analyzer - DEBUG - файл открыт, записей 1
+2026-06-07 21:47:06,726 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:47:06,726 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:47:06,726 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:47:06,726 - traffic_analyzer - INFO - начался поиск новых устройств
+2026-06-07 21:47:06,726 - traffic_analyzer - INFO - найдено новых устройств 0
+2026-06-07 21:47:06,726 - traffic_analyzer - DEBUG - новые ip []
+2026-06-07 21:47:06,730 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpbf6fk31j\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmpbf6fk31j\current_test.json, 2)
+2026-06-07 21:47:06,730 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:47:06,730 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpbf6fk31j\baseline_test.json)
+2026-06-07 21:47:06,731 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:47:06,731 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:47:06,731 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpbf6fk31j\current_test.json)
+2026-06-07 21:47:06,733 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:47:06,733 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:47:06,733 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:47:06,733 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:47:06,734 - traffic_analyzer - INFO - начался поиск пропавших устройств
+2026-06-07 21:47:06,734 - traffic_analyzer - INFO - найдено пропавших устройств 3
+2026-06-07 21:47:06,734 - traffic_analyzer - DEBUG - пропавшие ip ['10.0.0.2', '10.0.0.1', '192.168.1.3']
+2026-06-07 21:47:06,737 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpr1uf9nlv\a.json, C:\Users\user\AppData\Local\Temp\tmpr1uf9nlv\b.json, 3)
+2026-06-07 21:47:06,737 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:47:06,738 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpr1uf9nlv\a.json)
+2026-06-07 21:47:06,738 - traffic_analyzer - DEBUG - файл открыт, записей 1
+2026-06-07 21:47:06,739 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:47:06,739 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpr1uf9nlv\b.json)
+2026-06-07 21:47:06,740 - traffic_analyzer - DEBUG - файл открыт, записей 1
+2026-06-07 21:47:06,740 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:47:06,740 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:47:06,740 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:47:06,740 - traffic_analyzer - INFO - начался поиск пропавших устройств
+2026-06-07 21:47:06,740 - traffic_analyzer - INFO - найдено пропавших устройств 0
+2026-06-07 21:47:06,740 - traffic_analyzer - DEBUG - пропавшие ip []
+2026-06-07 21:47:06,743 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpc9letojr\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmpc9letojr\current_test.json, 2)
+2026-06-07 21:47:06,743 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:47:06,743 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpc9letojr\baseline_test.json)
+2026-06-07 21:47:06,744 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:47:06,744 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:47:06,744 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpc9letojr\current_test.json)
+2026-06-07 21:47:06,746 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:47:06,746 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:47:06,746 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:47:06,746 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:47:06,746 - traffic_analyzer - INFO - подсчет соединений для 3 записей
+2026-06-07 21:47:06,749 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpec2g42fv\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmpec2g42fv\current_test.json, 2)
+2026-06-07 21:47:06,749 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:47:06,749 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpec2g42fv\baseline_test.json)
+2026-06-07 21:47:06,751 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:47:06,751 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:47:06,751 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpec2g42fv\current_test.json)
+2026-06-07 21:47:06,752 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:47:06,752 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:47:06,752 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:47:06,752 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:47:06,752 - traffic_analyzer - INFO - подсчет соединений для 0 записей
+2026-06-07 21:47:06,755 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmp7bapz45i\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmp7bapz45i\current_test.json, 2)
+2026-06-07 21:47:06,755 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:47:06,755 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmp7bapz45i\baseline_test.json)
+2026-06-07 21:47:06,756 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:47:06,756 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:47:06,756 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmp7bapz45i\current_test.json)
+2026-06-07 21:47:06,757 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:47:06,757 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:47:06,757 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:47:06,757 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:47:06,758 - traffic_analyzer - INFO - начался поиск новых устройств
+2026-06-07 21:47:06,758 - traffic_analyzer - INFO - найдено новых устройств 2
+2026-06-07 21:47:06,758 - traffic_analyzer - DEBUG - новые ip ['192.168.1.4', '10.0.0.3']
+2026-06-07 21:47:06,758 - traffic_analyzer - INFO - начался поиск аномалий
+2026-06-07 21:47:06,758 - traffic_analyzer - DEBUG - среднее 1.8
+2026-06-07 21:47:06,758 - traffic_analyzer - DEBUG - стандартное отклонение 0.7483314773547883
+2026-06-07 21:47:06,758 - traffic_analyzer - DEBUG - порог аномалии 3.2966629547095767
+2026-06-07 21:47:06,758 - traffic_analyzer - DEBUG - проверка ip 192.168.1.4 4 соединений
+2026-06-07 21:47:06,758 - traffic_analyzer - INFO - найдена аномалия 192.168.1.4 (4 соединений)
+2026-06-07 21:47:06,758 - traffic_analyzer - DEBUG - проверка ip 10.0.0.3 1 соединений
+2026-06-07 21:47:06,758 - traffic_analyzer - INFO - всего подозрительных устройств 1
+2026-06-07 21:47:06,762 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpjkra5pyg\a.json, C:\Users\user\AppData\Local\Temp\tmpjkra5pyg\b.json, 3)
+2026-06-07 21:47:06,762 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:47:06,762 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpjkra5pyg\a.json)
+2026-06-07 21:47:06,763 - traffic_analyzer - DEBUG - файл открыт, записей 2
+2026-06-07 21:47:06,763 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:47:06,764 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpjkra5pyg\b.json)
+2026-06-07 21:47:06,765 - traffic_analyzer - DEBUG - файл открыт, записей 2
+2026-06-07 21:47:06,765 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:47:06,765 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:47:06,765 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:47:06,765 - traffic_analyzer - INFO - начался поиск новых устройств
+2026-06-07 21:47:06,765 - traffic_analyzer - INFO - найдено новых устройств 1
+2026-06-07 21:47:06,765 - traffic_analyzer - DEBUG - новые ip ['192.168.1.3']
+2026-06-07 21:47:06,765 - traffic_analyzer - INFO - начался поиск аномалий
+2026-06-07 21:47:06,766 - traffic_analyzer - DEBUG - среднее 1.0
+2026-06-07 21:47:06,766 - traffic_analyzer - DEBUG - стандартное отклонение 0.0
+2026-06-07 21:47:06,766 - traffic_analyzer - DEBUG - порог аномалии 1.0
+2026-06-07 21:47:06,766 - traffic_analyzer - DEBUG - проверка ip 192.168.1.3 1 соединений
+2026-06-07 21:47:06,766 - traffic_analyzer - INFO - всего подозрительных устройств 0
+2026-06-07 21:47:06,769 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpvzghqyvx\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmpvzghqyvx\current_test.json, 2)
+2026-06-07 21:47:06,770 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:47:06,770 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpvzghqyvx\baseline_test.json)
+2026-06-07 21:47:06,771 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:47:06,771 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:47:06,771 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpvzghqyvx\current_test.json)
+2026-06-07 21:47:06,772 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:47:06,772 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:47:06,772 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:47:06,772 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:47:06,773 - traffic_analyzer - INFO - начался поиск новых устройств
+2026-06-07 21:47:06,773 - traffic_analyzer - INFO - найдено новых устройств 2
+2026-06-07 21:47:06,773 - traffic_analyzer - DEBUG - новые ip ['192.168.1.4', '10.0.0.3']
+2026-06-07 21:47:06,773 - traffic_analyzer - DEBUG - началась сериализация объекта в словарь
+2026-06-07 21:47:06,776 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpm47j3j1u\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmpm47j3j1u\current_test.json, 2)
+2026-06-07 21:47:06,776 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:47:06,776 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpm47j3j1u\baseline_test.json)
+2026-06-07 21:47:06,777 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:47:06,777 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:47:06,777 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpm47j3j1u\current_test.json)
+2026-06-07 21:47:06,778 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:47:06,778 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:47:06,778 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:47:06,779 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:47:06,779 - traffic_analyzer - INFO - начался поиск новых устройств
+2026-06-07 21:47:06,779 - traffic_analyzer - INFO - найдено новых устройств 2
+2026-06-07 21:47:06,779 - traffic_analyzer - DEBUG - новые ip ['192.168.1.4', '10.0.0.3']
+2026-06-07 21:47:06,779 - traffic_analyzer - DEBUG - началась сериализация объекта в словарь
+2026-06-07 21:47:06,780 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpm47j3j1u\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmpm47j3j1u\current_test.json, 2)
+2026-06-07 21:47:06,783 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpgt_p3xe9\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmpgt_p3xe9\current_test.json, 2)
+2026-06-07 21:47:06,783 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:47:06,783 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpgt_p3xe9\baseline_test.json)
+2026-06-07 21:47:06,784 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:47:06,785 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:47:06,785 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpgt_p3xe9\current_test.json)
+2026-06-07 21:47:06,786 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:47:06,786 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:47:06,786 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:47:06,786 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:47:06,786 - traffic_analyzer - INFO - начался поиск новых устройств
+2026-06-07 21:47:06,787 - traffic_analyzer - INFO - найдено новых устройств 2
+2026-06-07 21:47:06,787 - traffic_analyzer - DEBUG - новые ip ['192.168.1.4', '10.0.0.3']
+2026-06-07 21:47:06,787 - traffic_analyzer - INFO - начался поиск аномалий
+2026-06-07 21:47:06,787 - traffic_analyzer - DEBUG - среднее 1.8
+2026-06-07 21:47:06,787 - traffic_analyzer - DEBUG - стандартное отклонение 0.7483314773547883
+2026-06-07 21:47:06,787 - traffic_analyzer - DEBUG - порог аномалии 3.2966629547095767
+2026-06-07 21:47:06,787 - traffic_analyzer - DEBUG - проверка ip 192.168.1.4 4 соединений
+2026-06-07 21:47:06,787 - traffic_analyzer - INFO - найдена аномалия 192.168.1.4 (4 соединений)
+2026-06-07 21:47:06,787 - traffic_analyzer - DEBUG - проверка ip 10.0.0.3 1 соединений
+2026-06-07 21:47:06,787 - traffic_analyzer - INFO - всего подозрительных устройств 1
+2026-06-07 21:47:06,787 - traffic_analyzer - INFO - сохранение состояния в C:\Users\user\AppData\Local\Temp\tmpgt_p3xe9\state.json
+2026-06-07 21:47:06,787 - traffic_analyzer - DEBUG - началась сериализация объекта в словарь
+2026-06-07 21:47:06,788 - traffic_analyzer - INFO - состояние сохранено
+2026-06-07 21:47:06,788 - traffic_analyzer - INFO - анализатор создан (None, None, 3)
+2026-06-07 21:47:06,788 - traffic_analyzer - INFO - загрузка состояния из C:\Users\user\AppData\Local\Temp\tmpgt_p3xe9\state.json
+2026-06-07 21:47:06,797 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpgt_p3xe9\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmpgt_p3xe9\current_test.json, 2)
+2026-06-07 21:47:06,797 - traffic_analyzer - INFO - состояние загружено
+2026-06-07 21:47:06,800 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmp0o5b6ij3\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmp0o5b6ij3\current_test.json, 2)
+2026-06-07 21:47:06,800 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:47:06,800 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmp0o5b6ij3\baseline_test.json)
+2026-06-07 21:47:06,801 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:47:06,801 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:47:06,801 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmp0o5b6ij3\current_test.json)
+2026-06-07 21:47:06,802 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:47:06,802 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:47:06,802 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:47:06,802 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:47:06,803 - traffic_analyzer - INFO - начался поиск новых устройств
+2026-06-07 21:47:06,803 - traffic_analyzer - INFO - найдено новых устройств 2
+2026-06-07 21:47:06,803 - traffic_analyzer - DEBUG - новые ip ['192.168.1.4', '10.0.0.3']
+2026-06-07 21:47:06,804 - traffic_analyzer - INFO - начался поиск аномалий
+2026-06-07 21:47:06,804 - traffic_analyzer - DEBUG - среднее 1.8
+2026-06-07 21:47:06,804 - traffic_analyzer - DEBUG - стандартное отклонение 0.7483314773547883
+2026-06-07 21:47:06,804 - traffic_analyzer - DEBUG - порог аномалии 3.2966629547095767
+2026-06-07 21:47:06,804 - traffic_analyzer - DEBUG - проверка ip 192.168.1.4 4 соединений
+2026-06-07 21:47:06,804 - traffic_analyzer - INFO - найдена аномалия 192.168.1.4 (4 соединений)
+2026-06-07 21:47:06,804 - traffic_analyzer - DEBUG - проверка ip 10.0.0.3 1 соединений
+2026-06-07 21:47:06,804 - traffic_analyzer - INFO - всего подозрительных устройств 1
+2026-06-07 21:47:06,804 - traffic_analyzer - INFO - генерация отчета в C:\Users\user\AppData\Local\Temp\tmp0o5b6ij3\report.json
+2026-06-07 21:47:06,805 - traffic_analyzer - INFO - отчет загружен в C:\Users\user\AppData\Local\Temp\tmp0o5b6ij3\report.json
+2026-06-07 21:47:06,808 - traffic_analyzer - INFO - анализатор создан (C:\Users\user\AppData\Local\Temp\tmpfg7i6lgw\baseline_test.json, C:\Users\user\AppData\Local\Temp\tmpfg7i6lgw\current_test.json, 2)
+2026-06-07 21:47:06,808 - traffic_analyzer - INFO - началась загрузка данных
+2026-06-07 21:47:06,808 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpfg7i6lgw\baseline_test.json)
+2026-06-07 21:47:06,810 - traffic_analyzer - DEBUG - файл открыт, записей 9
+2026-06-07 21:47:06,810 - traffic_analyzer - INFO - все записи baseline загружены в список
+2026-06-07 21:47:06,810 - traffic_analyzer - DEBUG - чтение файла (C:\Users\user\AppData\Local\Temp\tmpfg7i6lgw\current_test.json)
+2026-06-07 21:47:06,811 - traffic_analyzer - DEBUG - файл открыт, записей 8
+2026-06-07 21:47:06,811 - traffic_analyzer - INFO - все записи current загружены в список
+2026-06-07 21:47:06,811 - traffic_analyzer - INFO - уникальные записи baseline загружены в множество
+2026-06-07 21:47:06,811 - traffic_analyzer - INFO - уникальные записи current загружены в множество
+2026-06-07 21:47:06,811 - traffic_analyzer - DEBUG - множитель сигмы изменён на 5

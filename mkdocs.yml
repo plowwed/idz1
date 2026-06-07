@@ -1,0 +1,22 @@
+site_name: "анализатор сетевого трафика"
+site_description: "документация проекта по обнаружению аномалий сетевого трафика"
+
+theme:
+  name: "material"
+  language: ru
+
+nav:
+  - главная: index.md
+  - модули:
+    - анализатор: traffic_analyzer.md
+    - генератор данных: data_generator.md
+    - тесты: test_analyzer.md
+
+plugins:
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [.]
+          options:
+            show_source: true
+            heading_level: 2

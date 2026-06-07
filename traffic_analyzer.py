@@ -193,7 +193,7 @@ class TrafficAnalyzer:
             analyzer.count_connections(["192.168.1.1", "192.168.1.1", "10.0.0.1"])
             {"192.168.1.1": 2, "10.0.0.1": 1}
         """
-        self.loggint.info(f'подсчет соединений для {len(ip_list)} записей')
+        self.logger.info(f'подсчет соединений для {len(ip_list)} записей')
         return dict(Counter(ip_list))
 
     def anomalies(self):
