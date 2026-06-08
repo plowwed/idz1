@@ -255,16 +255,29 @@ class TrafficAnalyzer:
 
     def report(self, output_path="report.json"):
         """генерирует аналитический отчёт в json формате.
-            отчёт содержит:
-                1) настройки анализа;
-               2) статистику (количество уникальных ip, новых, пропавших);
-               3) метрики (среднее, стандартное отклонение, порог);
-               4) списки новых, пропавших и подозрительных устройств.
-            Args:
-                output_path (str) - путь для сохранения отчёта.
-                по умолчанию "report.json".
-            Returns:
-                dict - словарь с данными отчёта.
+        отчёт содержит следующие разделы:
+        - **settings**: настройки анализа
+            - baseline_file: путь к файлу baseline
+            - current_file: путь к файлу current
+            - sigma_multiplier: множитель сигмы
+        - **statistics**: общая статистика
+            - baseline_unique_ips: количество уникальных IP в baseline
+            - current_unique_ips: количество уникальных IP в current
+            - new_devices_count: количество новых устройств
+            - missing_devices_count: количество пропавших устройств
+            - mean_connections: среднее количество соединений (μ)
+            - std_connections: стандартное отклонение (σ)
+            - anomaly_threshold: порог аномалии (μ + k*σ)
+        - **new_devices**: список новых ip-адресов
+        - **missing_devices**: список пропавших ip-адресов
+        - **suspicious_devices**: словарь подозрительных устройств
+            - connections: количество соединений
+            - threshold: порог на момент анализа
+        Args:
+            output_path (str) - путь для сохранения отчёта.
+
+        Returns:
+            dict - словарь с полным отчётом.
         """
         self.logger.info(f'генерация отчета в {output_path}')
         report_data = {

@@ -1,3 +1,5 @@
+"""модуль для запуска программы"""
+
 from traffic_analyzer import TrafficAnalyzer
 
 analyzer = TrafficAnalyzer(baseline="baseline.json",current="current.json",sigma=3)
